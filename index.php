@@ -38,12 +38,17 @@
 //     default : echo "invalid number";
 
 // }
+// for($a=1; $a<=50; $a++ )
+//     if ($a%2 !=0){
+//     echo $a . '<br>';
+// }
 
 
-for($a=1; $a<=50; $a++ )
-    if ($a%2 !=0){
-    echo $a . '<br>';
-}
+for ($a=2; $a<=999; $a++ )
+    if ($a%2 !=1 ) {
+        echo $a . '<br>';
+    }
+
 
 ?>
 
